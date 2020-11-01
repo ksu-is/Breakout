@@ -25,3 +25,12 @@ You get points for destroying bricks. Different coloured bricks are worth differ
 
 ## Lives
 You lose a life when the ball falls past the bottom of the screen. The lives are in the form of extra balls. When you lose a life, you use one of the extra balls as a replacement for the one you just lost. Your current ball will appear as green/orange/red in the life display and will disappear once lost. The colour is dependent on how many balls you have left. All extra balls/lives will be grey.
+
+## Roadmap
+<p> [ ] Create  projectroadmap.md </p>
+<p> [x] Modify README.md to include Roadmap </p>
+<p> [x] Clone danielhp02's repository </p>
+<p> [x] Find examples of adding audio to Python-based games </p>
+<p> [ ] Add sounds to the paddle colliding with the ball </p>
+<p> [ ] Add sounds to the walls colliding with the ball </p>
+<p> [ ] Add sounds to the bricks colliding with the ball </p>
