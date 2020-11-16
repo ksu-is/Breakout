@@ -4,7 +4,8 @@
 <p> [x] Clone danielhp02's repository </p>
 <p> [x] Find examples of adding audio to Python-based games </p>
 <p> [ ] Add sounds to the paddle colliding with the ball </p>
-<p> [ ] Add sounds to the walls colliding with the ball </p>
+<p> [x] Add sounds to the walls colliding with the ball </p>
+<p> [x] Add sounds when the player loses a life </p>
 <p> [ ] Add sounds to the bricks colliding with the ball </p>
 # Notes on Related Projects
 So, I found some articles telling how to add audio with pygame to a python file. 
