@@ -2,6 +2,8 @@ import random
 from collections import OrderedDict
 
 import colours
+from pygame import mixer
+mixer.init()
 
 class Ball():
 
@@ -44,7 +46,8 @@ class Ball():
         # Check For collision with left and right boundaries
         if self.x - self.radius < 0 or self.x + self.radius > windowWidth:
             self.dx *= -1
-
+            collision_sound = mixer.Sound('bap.wav')
+            collision_sound.play()
         # Bounce off the top boundary
         if self.y - self.radius < 0:
             self.dy *= -1

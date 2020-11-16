@@ -6,6 +6,8 @@ import sys
 import objects
 import levels
 import colours
+from pygame import mixer
+
 
 # Initialise window variables
 windowWidth = 800
