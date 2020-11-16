@@ -46,8 +46,8 @@ class Ball():
         # Check For collision with left and right boundaries
         if self.x - self.radius < 0 or self.x + self.radius > windowWidth:
             self.dx *= -1
-            collision_sound = mixer.Sound('bap.wav')
-            collision_sound.play()
+            bap_sound = mixer.Sound('bap.wav')
+            bap_sound.play()
         # Bounce off the top boundary
         if self.y - self.radius < 0:
             self.dy *= -1
@@ -55,7 +55,8 @@ class Ball():
         # Bottom boundary - a life is lost
         elif self.y + self.radius > windowHeight:
             self.rockBottom = True
-
+            beep_sound = mixer.Sound('beep.wav')
+            beep_sound.play()
         # Bat
         if self.collisionFrames <= 0:
             if (self.y + self.radius > self.bat.y and self.y - self.radius < self.bat.y + self.bat.height and
