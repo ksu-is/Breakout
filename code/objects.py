@@ -51,7 +51,8 @@ class Ball():
         # Bounce off the top boundary
         if self.y - self.radius < 0:
             self.dy *= -1
-
+            bip_sound = mixer.Sound('bip.wav')
+            bip_sound.play()
         # Bottom boundary - a life is lost
         elif self.y + self.radius > windowHeight:
             self.rockBottom = True
@@ -63,6 +64,8 @@ class Ball():
                 self.x in range(int(self.bat.x), int(self.bat.x) + int(self.bat.width))):
                 self.dy *= -1
                 self.collisionFrames = self.cfAmount
+                bing_sound = mixer.Sound('bing.wav')
+                bing_sound.play()
             elif (self.x + self.radius > self.bat.x and self.x - self.radius < self.bat.x + self.bat.width and
                 self.y in range(int(self.bat.y), int(self.bat.y) + int(self.bat.height))):
                 self.dx *= -1
@@ -76,10 +79,14 @@ class Ball():
                 self.y in range(int(brick.y), int(brick.y) + brick.height)):
                 self.dx *= -1
                 self.brickIndex = i
+                boop_sound = mixer.Sound('boop.wav')
+                boop_sound.play()
             elif (self.y + self.radius > brick.y and self.y - self.radius < brick.y + brick.height and
                 self.x in range(brick.x, brick.x + brick.width)):
                 self.dy *= -1
                 self.brickIndex = i
+                bop_sound = mixer.Sound('bop.wav')
+                bop_sound.play()
 
 
     def move(self, windowWidth, windowHeight, state, bricks):
