@@ -2,6 +2,7 @@ import random
 from collections import OrderedDict
 
 import colours
+
 from pygame import mixer
 mixer.init()
 
