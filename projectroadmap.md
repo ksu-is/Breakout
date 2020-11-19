@@ -1,12 +1,13 @@
 # RoadMap
-<p> [x] Create  projectroadmap.md </p>
-<p> [x] Modify README.md to include Roadmap </p>
-<p> [x] Clone danielhp02's repository </p>
-<p> [x] Find examples of adding audio to Python-based games </p>
-<p> [x] Add sounds to the paddle colliding with the ball </p>
-<p> [x] Add sounds to the walls colliding with the ball </p>
-<p> [x] Add sounds when the player loses a life </p>
-<p> [x] Add sounds to the bricks colliding with the ball </p>
+- [x] Create  projectroadmap.md </p>
+- [x] Modify README.md to include Roadmap </p>
+- [x] Clone danielhp02's repository </p>
+- [x] Find examples of adding audio to Python-based games </p>
+- [x] Add sounds to the paddle colliding with the ball </p>
+- [x] Add sounds to the walls colliding with the ball </p>
+- [x] Add sounds when the player loses a life </p>
+- [x] Add sounds to the bricks colliding with the ball </p>
+- [x] Use Adobe Audition to modify soundfiles </p>
 # Notes on Related Projects
 So, I found some articles telling how to add audio with pygame to a python file. 
 (https://opensource.com/article/20/9/add-sound-python-game)
