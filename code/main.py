@@ -24,7 +24,8 @@ fps = 60
 # Initialise pygame
 pygame.init()
 clock = GAME_TIME.Clock()
-
+opening_sound = mixer.Sound('opening.wav')
+opening_sound.play()
 
 # Initialise display
 surface = pygame.display.set_mode((windowWidth, windowHeight))
