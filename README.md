@@ -28,3 +28,6 @@ You lose a life when the ball falls past the bottom of the screen. The lives are
 
 ## LICENSE
 https://github.com/ksu-is/Breakout/blob/master/LICENSE
+
+## Miscellaneous 
+The audio files were recorded by me, papeep. They are voice clips of me making sounds. I then converted them to a usable format and in Adobe Audition, I toned down the volume to be more tolerable and trimmed the clips a bit.
