@@ -1,5 +1,6 @@
 # Breakout
 A simple clone of Atari Breakout using Python 3 and Pygame
+Run game either via the game.bat or  game.sh files
 
 ## Controls
 |     Action       |       Key       |
