@@ -6,8 +6,9 @@ import sys
 import objects
 import levels
 import colours
-from pygame import mixer
 
+from pygame import mixer
+mixer.init()
 
 # Initialise window variables
 windowWidth = 800
@@ -23,6 +24,7 @@ fps = 60
 # Initialise pygame
 pygame.init()
 clock = GAME_TIME.Clock()
+
 
 # Initialise display
 surface = pygame.display.set_mode((windowWidth, windowHeight))
