@@ -6,6 +6,8 @@ import colours
 from pygame import mixer
 mixer.init()
 
+
+
 class Ball():
 
     def setSpeed(self):

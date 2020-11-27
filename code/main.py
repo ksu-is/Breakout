@@ -26,6 +26,8 @@ pygame.init()
 clock = GAME_TIME.Clock()
 opening_sound = mixer.Sound('opening.wav')
 opening_sound.play()
+bg_sound = mixer.Sound('bg music.wav')
+bg_sound.play(-1)
 
 # Initialise display
 surface = pygame.display.set_mode((windowWidth, windowHeight))
@@ -379,6 +381,7 @@ while True:
     elif state == playing:
         if len(bricks) == 0:
             setState(onBat)
+            
 
         drawScore()
         drawLives()
