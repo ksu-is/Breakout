@@ -8,6 +8,7 @@
 - [x] Add sounds when the player loses a life </p>
 - [x] Add sounds to the bricks colliding with the ball </p>
 - [x] Add opening sound when booting up the game </p>
+- [ ] Add background music that loops continuously 
 - [x] Use Adobe Audition to modify soundfiles </p>
 # Notes on Related Projects
 So, I found some articles telling how to add audio with pygame to a python file. 
