@@ -350,6 +350,8 @@ while True:
                 pauseText = 'epic secret ahahah'
                 pausePosition = (windowWidth/2 - statusFont.size(pauseText)[0]/2, statusFont.size(pauseText)[1]/3)
                 drawText(pausePosition, statusFont, pauseText, colours.lightGrey)
+                s_sound = mixer.Sound('easteregg.wav')
+                s_sound.play()
                 
 
         if event.type == pygame.QUIT:
