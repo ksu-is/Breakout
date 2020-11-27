@@ -347,7 +347,10 @@ while True:
         if event.type == pygame.MOUSEBUTTONDOWN:
             mouse_pos = event.pos
             if resumeButton.isClicked(mouse_pos):
-                print("XD")
+                pauseText = 'epic secret ahahah'
+                pausePosition = (windowWidth/2 - statusFont.size(pauseText)[0]/2, statusFont.size(pauseText)[1]/3)
+                drawText(pausePosition, statusFont, pauseText, colours.lightGrey)
+                
 
         if event.type == pygame.QUIT:
             quitGame()
